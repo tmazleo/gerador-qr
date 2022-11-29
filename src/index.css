@@ -1,0 +1,24 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+html, body, #root {
+  background-image: url(../../imgs/cloud.jpg);
+  background-position: center;
+  background-size:auto;
+  height: 100%;
+  animation: move 80s infinite;
+}
+
+@keyframes move {
+  50% {
+    background-position-x:  1000%;
+  }
+  100% {
+    background-position-x:  2000%;
+  }
+}
